@@ -6,6 +6,7 @@
 
 <p align="center">
 <img src="https://github.com/barisyasin/sagemaker-intro-tr/blob/master/blob/master/Picture0.png">
+<img src="images/ml_process.png" alt="ML Process" width="700px" />
 </p>
 
 * “Create notebook” instance butonuna tıklayın
