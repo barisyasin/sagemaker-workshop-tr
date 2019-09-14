@@ -1,14 +1,14 @@
-<a name="head3"></a>
 ## 3. Modelin oluşturulması
-* Konsolda sol üst köşedeki Services butonuna tıklayın, çıkan kutucuğa Sagemaker yazın ve en üstte gelen linke tıklayın
-* Soldaki menüden Notebook instances linkine tıklayın
-* Gelen listede oluşturduğunuz Notebook Instance’ın Status’u InService olarak görünüyorsa Open linkine tıklayın. InService olarak görünmüyorsa birkaç dakika daha bekleyin
++ Konsolda sol üst köşedeki Services butonuna tıklayın, çıkan kutucuğa Sagemaker yazın ve en üstte gelen linke tıklayın
++ Soldaki menüden Notebook instances linkine tıklayın
++ Gelen listede oluşturduğunuz Notebook Instance’ın Status’u InService olarak görünüyorsa "Open Jupyter Lab" linkine tıklayın. InService olarak görünmüyorsa birkaç dakika daha bekleyin
 
 <p align="center">
 <img src="https://github.com/barisyasin/sagemaker-intro-tr/blob/master/blob/master/Picture4.png">
 </p>
 
-* Open linkine tıkladığınızda tarayıcınızın yeni bir ekranında Jupyter açılacak
+* "Open Jupyter Lab" linkine tıkladığınızda tarayıcınızın yeni bir tabında Jupyter Lab ekranı açılacak
+
 * Jupyter’de yukarıdaki tablardan SageMaker Examples’ı seçin
 * Introduction to Applying Machine Learning bölmesindeki Breast Cancer Prediction.ipynb notebook’unu bulun ve en sağdaki Use butonuna tıklayın, gelen pop-up ekranında Create copy butonuna tıklayın. Tarayıcınız yeni bir ekranında seçtiğiniz Jupyter notebook açılacaktır
 

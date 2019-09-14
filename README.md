@@ -1,4 +1,3 @@
-
 # Amazon Sagemaker Kullanarak Özelleştirilmiş Nesne Tespit Modeli Oluşturma
 
 Bu atölyede, görüntülerdeki nesneleri tespit için Amazon Sagemaker ve COCO açık veri setini kullanacağız. Veri bilimi yaşam döngüsünün veriyi uygun formatlara dönüştürülmesinden, oluşturulan modelin sunulmasına kadar tüm adımlarını inceleyeceğiz.

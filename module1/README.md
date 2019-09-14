@@ -1,4 +1,3 @@
-<a name="head1"></a>
 ## 1. Amazon Sagemaker notebook makinasının ayağa kaldırılması
 + AWS Konsol'a login olun
 + AWS Services etiketinin aldındaki arama kutusuna Sagemaker yazın, çıkan linke tıklayın
