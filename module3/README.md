@@ -17,43 +17,43 @@ görünmüyorsa birkaç dakika daha bekleyin
 
 <img src="images/img004.png" alt="" width="700px" />
 
-+ Çıkan pop-up'a https://github.com/barisyasin/sagemaker-workshop-tr.git adresini girin ve Clone butonuna tıklayın.
++ Çıkan pop-up'a **https://github.com/barisyasin/sagemaker-workshop-tr.git** adresini girin ve Clone butonuna tıklayın.
 
 <img src="images/img006.png" alt="" width="700px" />
 
-+ Bir kaç saniye bekledikten sonra sol taraftaki File Browser tabında repository klasörünün geldiğini göreceksiniz. Eğer gelmezse yine aynı tabdaki Refresh File List butonuna tıklayın.
++ Bir kaç saniye bekledikten sonra sol taraftaki File Browser tabında repository klasörünün geldiğini göreceksiniz. Eğer gelmezse yine aynı tabdaki **Refresh File List** butonuna tıklayın.
 
 <img src="images/img007.png" alt="" width="700px" />
 
-+ sagemaker-workshop-tr/code/object_detection_birds.ipynb python notebook dosyasının üzerine çift tıklayarak açın
++ **sagemaker-workshop-tr/code/object_detection_birds.ipynb** python notebook dosyasının üzerine çift tıklayarak açın
 
 + Notebook dosyasını genel olarak gözden geçirin
 
-+ Notebook içinde <your_s3_bucket_name_here> yazan yere not aldığınız bucket adını kopyalayın.
++ Notebook içinde **<your_s3_bucket_name_here>** yazan yere not aldığınız bucket adını kopyalayın.
 
 <img src="images/img008.png" alt="" width="700px" />
 
-+ En üstteki menüden Run-->Run All Cells'i seçin ve notebook'unuzda bulunan bütün satırların işletilmesinin tamamnlanmasını bekleyin. Tamamlanan satırların sol üst köşesinden o satırın işletilme sırasını gösteren bir sayı bulunur. İşletilmekte olan veya henüz işletilmemiş hücrelerin sol üst köşesinde ise [*] sembolü bulunur.
++ En üstteki menüden **Run-->Run All Cells**'i seçin ve notebook'unuzda bulunan bütün satırların işletilmesinin tamamnlanmasını bekleyin. Tamamlanan satırların sol üst köşesinden o satırın işletilme sırasını gösteren bir sayı bulunur. İşletilmekte olan veya henüz işletilmemiş hücrelerin sol üst köşesinde ise [*] sembolü bulunur.
 
 <img src="images/img009.png" alt="" width="700px" />
 
 + Training aşaması biraz zaman alacaktır. Bu esnada Amazon Sagemaker ortamını daha iyi tanımak için şu adımları yerine getirebilirsiniz: 
-    + Notebook'u satır satır okuyarak hücrelerin çıktıları inceleyebilirsiniz.
-    + od_model.fit(inputs=data_channels, logs=True) hücresinin altına yazılan logları takip edebilirsiniz. Sözkonusu satır modelimizin trainingini yapan ve en uzun sürmesi beklenen satırdır.
-    + Sagemaker konsolundan notebook makinası tarafından başlatılan Training job'ları gözlemleyebilirsiniz.
+    + **Notebook**'u satır satır okuyarak hücrelerin çıktıları inceleyebilirsiniz.
+    + **od_model.fit(inputs=data_channels, logs=True)** hücresinin altına yazılan logları takip edebilirsiniz. Sözkonusu satır modelimizin trainingini yapan ve en uzun sürmesi beklenen satırdır.
+    + Sagemaker konsolundan notebook makinası tarafından başlatılan **Training job**'ları gözlemleyebilirsiniz.
 
     <img src="images/img010.png" alt="" width="700px" />
     <img src="images/img011.png" alt="" width="700px" />
     <img src="images/img012.png" alt="" width="700px" />
     <img src="images/img013.png" alt="" width="700px" />
 
-    + Sagemaker konsolundan notebook makinası tarafından oluşturulan Endpoint'leri inceleyebilirsiniz
+    + Sagemaker konsolundan notebook makinası tarafından oluşturulan **Endpoint**'leri inceleyebilirsiniz
 + Training tamamlandığında modeli genişletilmiş veri setiyle tekrar eğitilmeden önceki haliyle karşılaştırın.
-    + Önceki mAP:
+    + Önceki **mAP**:
 
     <img src="images/beforemap.png" alt="" width="400px" />
 
-    + Sonraki mAP:
+    + Sonraki **mAP**:
 
     <img src="images/aftermap.png" alt="" width="400px" />
 
