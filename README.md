@@ -24,6 +24,7 @@ Amazon SageMaker, geliştiricilere ve veri bilimcilere Machine Learning(ML) mode
 <img src="images/img005.png" width="700px"/>
 
 Çözümü geliştirebilmek için öncelikle eğitim veri setini indirip işleyeceğiz, algoritmanın veri seti üzerinde çalışabilmesi için bir eğitim görevi yaratıp konfigüre edeceğiz ve algoritmanın oluşturduğu modeli barındırmak için bir endpoint oluşturacağız. Böylece Amazon Sagemaker nesne tespit algoritmasının nasıl çalıştığını inceleyebileceğimiz uçtan uca bir çalışma yapmış olacağız. [Caltech birds açık veri setini](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html) ve Single Shot multibox Detector ([SSD](https://arxiv.org/abs/1512.02325)) algoritmasını Amazon Sagemaker platformu üzerinde kullanacağız.
+
 <img src="images/collage.jpg" alt="" width="700px"/>
 
 ### Ön koşullar
