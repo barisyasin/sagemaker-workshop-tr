@@ -8,7 +8,6 @@
 + Sol alt köşedeki "Create" butonuna tıklayın
 <img src="images/img104.png" alt="" width="700px"/>
 + Bucket'ınızın başarıyla oluşturulduğunu gördüyseniz <a href="../module3/">**Modül 3**</a>'e devam edebilirsiniz.
-2**</a>'yi tamamlayabilirsiniz
 <img src="images/img105.png" alt="" width="700px"/>
 
 
