@@ -21,7 +21,7 @@
 <img src="images/img205.png" alt="Notebook Name" width="700px" />
 
 
-+ Notebook Instances ekranında yarattığınız notebook makinasının Status'u Pending'ten InService'e dönüştüğü esnada <a href="module2/">**Modül 2**</a>'yi tamamlayabilirsiniz
++ Notebook Instances ekranında yarattığınız notebook makinasının Status'u Pending'ten InService'e dönüştüğü esnada <a href="../module2/">**Modül 2**</a>'yi tamamlayabilirsiniz
 <img src="images/img206.png" alt="Create Notebook" width="700px" />
 
 
