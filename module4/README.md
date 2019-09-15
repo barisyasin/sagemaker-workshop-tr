@@ -6,17 +6,17 @@
 <img src="https://github.com/barisyasin/sagemaker-intro-tr/blob/master/blob/master/Picture8.png">
 </p>
 
-* Konsolda sol üst köşedeki Services butonuna tıklayın, çıkan kutucuğa Lambda yazın ve en üstte gelen linke tıklayın
-* Gelen ekranda Create Function butonuna tıklayın
-* Name alanına sagemakerinvokerfunction yazın
-* Runtime’ı Python 3.6 seçin
++ Konsolda sol üst köşedeki Services butonuna tıklayın, çıkan kutucuğa Lambda yazın ve en üstte gelen linke tıklayın
++ Gelen ekranda Create Function butonuna tıklayın
++ Name alanına sagemakerinvokerfunction yazın
++ Runtime’ı Python 3.6 seçin
 
 <p align="center">
 <img src="https://github.com/barisyasin/sagemaker-intro-tr/blob/master/blob/master/Picture9.png">
 </p>
 
-* Role için Create a custom role seçeneğine tıklayın. AWS Lambda’nın Amazon Sagemaker’ı çağırırken kullanacağı rolü oluşturacağınız ekran açılacaktır 
-* Açılan ekranda View Policy Document’e tıkladıktan sonra ortaya çıkan Edit linkine tıklayın. Policy document kutucuğu editable duruma gelecektir. Kutucuğa şu [text’i](code/policy.txt) girin:
++ Role için Create a custom role seçeneğine tıklayın. AWS Lambda’nın Amazon Sagemaker’ı çağırırken kullanacağı rolü oluşturacağınız ekran açılacaktır 
++ Açılan ekranda View Policy Document’e tıkladıktan sonra ortaya çıkan Edit linkine tıklayın. Policy document kutucuğu editable duruma gelecektir. Kutucuğa şu [text’i](code/policy.txt) girin:
 
 
 ```
@@ -33,9 +33,9 @@
 }
 ```
 
-* Allow butonuna tıklayın
-* Create function butonuna tıklayın
-* Yeni ekranda Function Code alanına doğru inin ve [kodu](code/lambda_function.py) aşağıdakiyle değiştirin
++ Allow butonuna tıklayın
++ Create function butonuna tıklayın
++ Yeni ekranda Function Code alanına doğru inin ve [kodu](code/lambda_function.py) aşağıdakiyle değiştirin
 
 ```
 import os
@@ -66,5 +66,11 @@ def lambda_handler(event, context):
     return pred
 ```
 
-* Biraz daha aşağıdaki Environment Variables alanına gelin. Key alanına ENDPOINT_NAME yazın. Value alanına Notebook’unuzun çalışırken çıktı olarak ürettiği “DEMO-linear-endpoint-XXX” ile başlayan enpoint adını kopyalayın. Endpoint adını öğrenmek için tarayıcı ekranında açılan Notebook’unuza geri dönün. DEMO-linear-endpoint- metnini aratın. Bu metni bulduğunuz ilk kod kutucuğunun altında gördüğünüz üretilmiş endpoint’in adını kopyalayın (DEMO-linear-endpoint-201810060646 gibi bir metin olması gerekiyor). Kod kutucuğu hala işletilmemişse işletilmesini bekledikten sonra bu adımı gerçekleştirin
-* Save butonuna tıklayın
++ Biraz daha aşağıdaki Environment Variables alanına gelin. Key alanına ENDPOINT_NAME yazın. Value alanına Notebook’unuzun çalışırken çıktı olarak ürettiği “DEMO-linear-endpoint-XXX” ile başlayan enpoint adını kopyalayın. Endpoint adını öğrenmek için tarayıcı ekranında açılan Notebook’unuza geri dönün. DEMO-linear-endpoint- metnini aratın. Bu metni bulduğunuz ilk kod kutucuğunun altında gördüğünüz üretilmiş endpoint’in adını kopyalayın (DEMO-linear-endpoint-201810060646 gibi bir metin olması gerekiyor). Kod kutucuğu hala işletilmemişse işletilmesini bekledikten sonra bu adımı gerçekleştirin
++ Save butonuna tıklayın
+
+
+
+
++ Eğer bu atölye çalışmasını kendi AWS hesabınız üzerinde yapıyorsanız açtığınız kanakları kapatmayı unutmayın
++ Jupyter Lab arayüzündeki sol tarafta en altta bulunan "Amazon Sagemaker sample notebooks" butonuna tıklayarak daha fazla notebook örneğine erişip inceleyebilirsiniz.
