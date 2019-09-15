@@ -1,20 +1,23 @@
 # Amazon Sagemaker Kullanarak Özelleştirilmiş Nesne Tespit Modeli Oluşturma
 
 Nesne tespiti, verilen bir imajdaki nesneleri imajda bulundukları koordinatlarlarla beraber tanımlamaktır. Klasik bir nesne tespit çözümü girdi olarak imaj alır, çıktı olarak tespit ettiği nesneleri içinde bulundukları kutuların koordinatlarıyla(bounding box) beraber verir. 
-<img src="images/img001.png" alt="" width="700px"/>
+<img src="images/img001.1.png" alt="" width="700px"/>
 
 
 Bu atölyede, görüntülerdeki kuşların türlerini ve görüntüdeki yerini tespit için Amazon Sagemaker ve Caltech Birds açık veri setini kullanacağız. 
 
 Veri bilimi yaşam döngüsünün veriyi uygun formatlara dönüştürülmesinden, oluşturulan modelin sunulmasına kadar birçok aşamasını göreceğiz.
 
-<img src="images/img002.png" alt="" width="700px" />
+<img src="images/img002.1.png" alt="" width="700px" />
 
 
 Amazon SageMaker, geliştiricilere ve veri bilimcilere Machine Learning(ML) modellerini hızla geliştirme, eğitme ve dağıtma kabiliyeti sunan bir servis. Bu servisi kullanarak yapabileceklerinizden bazıları:
 + Verilerinizi etiketleme ve hazırlama
+<img src="images/img003.1.png" alt="" width="700px" />
 + Algoritma seçme, modeli eğitme, dağıtım için ayarlayıp optimize etme
+<img src="images/img004.1.png" alt="" width="700px" />
 + Tahmin yapma ve dağıtma(üretim, dev-test vb. ortamlar) 
+<img src="images/img005.1.png" alt="" width="700px" />
 
 Çözümü geliştirebilmek için öncelikle eğitim veri setini indirip işleyeceğiz, algoritmanın veri seti üzerinde çalışabilmesi için bir eğitim görevi yaratıp konfigüre edeceğiz ve algoritmanın oluşturduğu modeli barındırmak için bir endpoint oluşturacağız. Böylece Amazon Sagemaker nesne tespit algoritmasının nasıl çalıştığını inceleyebileceğimiz uçtan uca bir çalışma yapmış olacağız. [Caltech birds açık veri setini](http://www.vision.caltech.edu/visipedia/CUB-200-2011.html) ve Single Shot multibox Detector ([SSD](https://arxiv.org/abs/1512.02325)) algoritmasını Amazon Sagemaker platformu üzerinde kullanacağız.
 
