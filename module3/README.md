@@ -48,6 +48,7 @@ görünmüyorsa birkaç dakika daha bekleyin
     <img src="images/img013.png" alt="" width="700px" />
 
     + Sagemaker konsolundan notebook makinası tarafından oluşturulan **Endpoint**'leri inceleyebilirsiniz
++ Training tamamlandığında S3'teki bucketınıza girerek oluşam model artifact'ini inceleyin
 + Training tamamlandığında modeli genişletilmiş veri setiyle tekrar eğitilmeden önceki haliyle karşılaştırın.
     + Önceki **mAP**:
 
